@@ -9,3 +9,8 @@ edition = "2021"
 actix-web = "*"
 serde = {version = "*", features = ["derive"]}
 serde_json = "*"
+dotenv = "*"
+diesel = {version = "*", features = ["sqlite"]}
+
+[dev-dependencies]
+diesel_cli = { version = "*", features = ["sqlite"] }
